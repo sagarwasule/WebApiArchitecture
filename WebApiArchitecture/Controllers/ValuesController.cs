@@ -18,7 +18,9 @@ namespace WebApiArchitecture.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            string s = null;
+            //return "value";
+            return s.ToString();
         }
 
         // POST api/values
